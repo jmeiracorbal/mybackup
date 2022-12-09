@@ -1,0 +1,19 @@
+{
+    "name": "jmeiracorbal/mybackup",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jose Meira",
+            "email": "jose.meira@fba-consulting.com"
+        }
+    ],
+    "require": {
+        "ifsnop/mysqldump-php": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyBackup\\": "src"
+        }
+    }
+}
